@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Futura", sans-serif;
     font-size: 35px;
     line-height: 140%;
 }
@@ -12,6 +12,7 @@ h1 {
 h2 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
 img{
@@ -51,7 +52,7 @@ table{
 .icons{
     height: 40px;
     width: 40px;
-    margin-right: 15px;
+    margin-right: 40px;
 }
 
 
