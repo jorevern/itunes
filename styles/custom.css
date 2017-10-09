@@ -1,0 +1,71 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    line-height: 140%;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    width: 100%;
+}
+
+.plaat{
+    padding-bottom: 268px;
+    padding-top: 268px;
+}
+
+.row{
+    padding-bottom: 33px;
+    padding-top: 33px;
+}
+
+ol{
+    line-height: 160%;
+}
+
+.lijn{
+   border-top: 3px solid rgb(128,128,128);
+}
+
+.vert-lijn{
+   border-left: 3px solid rgb(128,128,128);
+}
+
+.midden{
+    text-align: center;
+}
+
+table{
+    text-decoration: none;
+}
+
+.icons{
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
