@@ -1,72 +1,84 @@
 body {
-    font-family: "Futura", sans-serif;
-    font-size: 35px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
     line-height: 140%;
 }
 
 h1 {
-    font-size: 60px;
     text-align: center;
+    font-size: 23px;
+    line-height: 100%;
 }
 
 h2 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
+    font-size: 15px;
 }
 
-img{
+h3 {
+    font-size: 20px;
+    text-align: center
+}
+
+img {
     width: 100%;
 }
 
-.plaat{
-    padding-bottom: 268px;
-    padding-top: 268px;
+.plaat {
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
-.row{
-    padding-bottom: 33px;
-    padding-top: 33px;
+.zonder-lijn {
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
-ol{
+ol {
     line-height: 160%;
 }
 
-.lijn{
-   border-top: 3px solid rgb(128,128,128);
+.lijn {
+    padding-top: 16px;
+    border-top: 2px solid rgb(57, 3, 111);
 }
 
-.vert-lijn{
-   border-left: 3px solid rgb(128,128,128);
+.vert-lijn {
+    border-right: 2px solid rgb(57, 3, 111);
 }
 
-.midden{
-    text-align: center;
-}
-
-table{
+table {
     text-decoration: none;
 }
 
-.icons{
-    height: 40px;
-    width: 40px;
-    margin-right: 40px;
+.icons {
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
 }
-
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
-
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) {
+    ...
+}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+    body {
+        font-size: ;
+    }
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+    ...
+}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+    ...
+}
