@@ -2,6 +2,8 @@ body {
     font-family: 'Catamaran', sans-serif;
     font-size: 16px;
     line-height: 140%;
+    color: rgb(161,161,161);
+    background-color: rgb(51,51,51)
 }
 
 h1 {
@@ -22,13 +24,23 @@ h3 {
     text-align: center
 }
 
+.goud,
+h2,
+.icons{
+    color: rgb(218,189,115);
+}
+
+.icons:hover{
+    color: rgb(190,157,87);
+}
+
 img {
     width: 100%;
 }
 
 .plaat {
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 140px;
+    padding-top: 140px;
 }
 
 .zonder-lijn {
@@ -42,11 +54,11 @@ ol {
 
 .lijn {
     padding-top: 16px;
-    border-top: 2px solid rgb(57, 3, 111);
+    border-top: 2px solid rgb(218,189,115);
 }
 
 .vert-lijn {
-    border-right: 2px solid rgb(57, 3, 111);
+    border-right: 2px solid rgb(218,189,115);
 }
 
 table {
@@ -59,26 +71,26 @@ table {
     margin-right: 15px;
 }
 
+
+
+
 // Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-    ...
-}
+@media (max-width: 575px) { ... }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-    body {
-        font-size: ;
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) { 
+
+    h1{
+        font-size: 40px;
     }
-}
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    ...
-}
+ }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-    ...
-}
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
