@@ -61,13 +61,18 @@ ol {
     border-right: 2px solid rgb(218,189,115);
 }
 
-table {
-    text-decoration: none;
-}
-
 .icons {
     margin-right: 15px;
 }
+
+.begin{
+    padding-top: 22px;
+}
+
+.einde{
+    padding-bottom: 22px;
+}
+
 
 
 
@@ -90,7 +95,15 @@ table {
     h2{
         font-size: 18px;
     }
-     
+    
+    .zonder-lijn,
+    lijn {
+        padding-top: 44px;
+    }
+
+    .zonder-lijn {
+        padding-bottom: 44 px;
+    }
     
  }
  
